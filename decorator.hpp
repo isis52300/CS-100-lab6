@@ -6,10 +6,10 @@
 
 #include "base.hpp"
 
-class Decorator {
+class Decorator : public Base {
 public:
     /* Constructors */
-    Decorator() { }
+    Decorator() : Base() { }
     
     /* Pure Virtual Functions */
     virtual double evaluate() = 0;
