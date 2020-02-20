@@ -4,6 +4,8 @@
 #include <string>
 #include <math.h>
 
+#include "base.hpp"
+
 class Decorator {
 public:
     /* Constructors */
