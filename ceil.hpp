@@ -4,9 +4,10 @@
 #include <string>
 #include <math.h>
 
+#include "decorator.hpp"
 #include "base.hpp"
 
-class Ceil : public: Decorator {
+class Ceil : public Decorator {
 public:
     /* Constructors */
     Ceil(Base* b) { function = b; }
