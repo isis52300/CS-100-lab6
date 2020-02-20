@@ -7,10 +7,10 @@
 #include "decorator.hpp"
 #include "base.hpp"
 
-class Ceil : public Decorator {
+class Trunc : public Decorator {
 public:
     /* Constructors */
-    Ceil(Base* b) { function = b; }
+    Trunc(Base* b) { function = b; }
     
     /* Pure Virtual Functions */
     virtual double evaluate() {}
