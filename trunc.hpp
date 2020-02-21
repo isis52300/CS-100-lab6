@@ -24,7 +24,7 @@ private:
     Base* function;
 };
 
-#endif //__CEIL_HPP__
+#endif //__TRUNC_HPP__
 
 
 
